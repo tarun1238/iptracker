@@ -8,6 +8,7 @@ const counterReducer = function(state="",action) {
                 return state="Agrawal"
         case 'prev' :
                 console.log(state) 
+                break;
         default : return state
     }
   }

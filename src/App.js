@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import ip from "ip";
 function App(){
 
-  const [details, setDetails] = useState(null);
+  const details = useState(null);
 
   const getUserGeolocationDetails = () => {
     var findIP = new Promise(r=>
