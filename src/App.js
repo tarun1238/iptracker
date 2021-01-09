@@ -1,8 +1,11 @@
 import React, {useState} from 'react'
+import ip from 'ip'
 function App(){
 
-  const details = useState(true);
-  
+  const [details, setDetails] = useState(true);
+  const handleClick=()=>{
+    document.write(ip.address())
+  }
   return (
     <div className="row">
     <div className="col text-center">
@@ -10,6 +13,7 @@ function App(){
         <p className="mt-3">
             <button
                 className="btn btn-primary"
+                onClick={handleClick}
             >
                 Find my details
             </button>
