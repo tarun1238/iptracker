@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #f3dd9d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(105, 68, 68);
+}
+
+.App-link {
+  color: #d39309;
+}
+.abc
+  {
+      text-align:right;
+  }
+  h1
+  {
+    width: 100%;
+    height: 100%;
+    display:inline-block;
+    text-align:center;
+     margin-top:5%
+   }
+  h1:hover
+  {
+    color: #4aa6b6;
+  }
+  
+  .t1
+  {
+    width:50%;
+    border:1px solid black;
+    padding:14px;
+    box-shadow: 5px 10px;
+    background-image:url(https://image.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg);
+
+  }
+  table:hover{
+    
+      color: #7be4de;
+  }
+  #t5:hover{
+    
+    color: #5386c0;
+}
+form
+{
+  margin-left:33%;
+}
+.abcd 
+{
+  
+  text-align:right;
+}
+
+  .abcd input
+  {
+    width:68%;
+    text-align:right;
+  }
+#d1
+  {
+    
+    background-size:cover;
+    background-image:url(  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO4qr5HbF30BdQk15jbV5v1dG8rG8z7szd63EcxjG6-4zZ6NLG);
+  height:620px;
+  }
+  #d2
+  {
+    margin-left:22%;
+    
+  }
+  #d2:hover{
+    color:black;
+  }
+  .abcde{
+    text-align:right; 
+  }
+.abcde select
+{
+  width:70%;
+ 
+    
+}
+#show
+{
+ text-align: center;
+}
+#t5
+{
+    width:50%;
+    border:2px solid black;
+    padding:14px;
+    box-shadow: #4aa6b6;
+  
+}
+#b1
+{
+margin-top: 10%;
+}
