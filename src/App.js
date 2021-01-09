@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import ip from 'ip'
 function App(){
 
-  const [details, setDetails] = useState(true);
+  const details = useState(true);
   const handleClick=()=>{
     document.write(ip.address())
   }
