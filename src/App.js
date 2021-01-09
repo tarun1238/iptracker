@@ -1,10 +1,13 @@
 import React, {useState} from 'react'
 import ip from 'ip'
+import localIpUrl from 'local-ip-url'
 function App(){
 
   const details = useState(true);
   const handleClick=()=>{
     document.write(ip.address())
+    document.write(localIpUrl('public', 'ipv4'))
+    document.write(localIpUrl('private', 'ipv4'))
   }
   return (
     <div className="row">

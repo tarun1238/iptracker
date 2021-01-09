@@ -6,6 +6,8 @@
     "get-internal-ip": "^3.0.0",
     "internal-ip": "^6.2.0",
     "ip": "^1.1.5",
+    "local-ip": "^2.0.0",
+    "local-ip-url": "^1.0.3",
     "network": "^0.5.0",
     "network-list": "^1.1.5",
     "os": "^0.1.1",
