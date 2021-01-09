@@ -1,13 +1,16 @@
 import React, {useState} from 'react'
 import ip from 'ip'
-import localIpUrl from 'local-ip-url'
+import prepareUrls from 'local-ip-url/prepareUrls'
 function App(){
 
   const details = useState(true);
   const handleClick=()=>{
     document.write(ip.address())
-    document.write(localIpUrl('public', 'ipv4'))
-    document.write(localIpUrl('private', 'ipv4'))
+    console.log(prepareUrls({
+      protocol: 'http',
+      host: '0.0.0.0',
+      port: 3000
+    }))
   }
   return (
     <div className="row">
